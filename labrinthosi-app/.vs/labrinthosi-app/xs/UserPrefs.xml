@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{01E995F0-4ACB-6ED1-AA55-A6F0E19A86C1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/changetext.cs">
+    <Files>
+      <File FileName="Assets/changetext.cs" Line="16" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="labrinthosi-app" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="changetext.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="04f231ac-be9b-4300-9b16-81edb45b8ad7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

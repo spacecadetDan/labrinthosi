@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class changeText : MonoBehaviour
-{
+public class changetext : MonoBehaviour
+{   public TextMeshProUGUI textMesh;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,11 @@ public class changeText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        textMesh.GetComponent<TextMeshProUGUI>();
+    }
+
+    public void onButtonClicked(){
+        textMesh.GetComponent<TextMeshProUGUI>();
+        textMesh.SetText("hi");
     }
 }
