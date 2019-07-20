@@ -5,6 +5,9 @@ using TMPro;
 
 public class changetext : MonoBehaviour
 {   public TextMeshProUGUI textMesh;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +23,7 @@ public class changetext : MonoBehaviour
     public void onButtonClicked(){
         textMesh.GetComponent<TextMeshProUGUI>();
         textMesh.SetText("hi");
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 }
